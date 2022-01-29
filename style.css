@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 200px;
+  width: 600px;
+  background: rgba(5, 5, 5, 0.1);
+  border-radius: 5px;
+  color: #f5f5dc;
+}
+
+.card h1 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+  padding: 5px 10px;
+  background: rgba(5, 5, 5, 0.1);
+  color: #f5f5dc;
+  border-radius: 5px;
+}
